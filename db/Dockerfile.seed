@@ -1,0 +1,4 @@
+FROM mongo
+COPY seed.json /seed.json
+CMD mongoimport --host db --db aubaysum --collection summaries --type json --jsonArray --mode upsert --upsertFields=_id --file /seed.json && \
+    mongo "mongodb://db:27017/aubaysum" --eval 'db.summaries.createIndex({"summary.extractive.raw": "text", "summary.abstractive.raw" : "text", "summary.extractive.edited": "text", "summary.abstractive.edited" : "text"}, {name: "crIndex"})'
