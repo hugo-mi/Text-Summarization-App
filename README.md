@@ -78,8 +78,6 @@ Application of a transfer learning approach:
 Development of an end-to-end application for the automation of the writing of a meeting report in French:
 - Integration of the two "fine-tuned" models (CamemBERT and mBART'hez) for automatic text summarization.
 
-Translated with www.DeepL.com/Translator (free version)
-
 This web application automates the writing of meeting minutes. 
 To develop the IT solution we used the following technologies :
 
