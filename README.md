@@ -1,5 +1,7 @@
 # **nlp-app-2021**
 
+![](https://github.com/hugo-mi/Text-Summarization-App/blob/main/img/Homepage.png)
+
 # **FRANCAIS**
 
 ## Application NLP développée par l'équipe NLP-2021
