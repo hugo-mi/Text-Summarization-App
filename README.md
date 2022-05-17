@@ -1,8 +1,19 @@
-# **nlp-app-2021**
+# Text Summarization App
 
 ![](https://github.com/hugo-mi/Text-Summarization-App/blob/main/img/Homepage.png)
 
 # **FRANCAIS**
+
+## Description
+
+Réalisation de deux POC orientés résumé et génération automatique de textes en français
+
+Application d'une approche d'apprentissage par transfert : 
+- Fine-tuning avec le dataset ``ML SUM`` du transformer ``CamemBERT`` pour la tâche de synthèse extractive
+- Fine-tuning du transformer ``OrangeSUM`` ``mBART'hez`` pour la tâche de synthèse abstractive
+
+Développement d'une application end-to-end pour l'automatisation de la rédaction d'un compte rendu de réunion en français :
+- Intégration des deux modèles "fine-tuné" (CamemBERT et mBART'hez) de résumé de textes automatique.
 
 ## Application NLP développée par l'équipe NLP-2021
 
