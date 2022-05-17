@@ -67,7 +67,18 @@ Pré-requis sur les PC Aubay :
 
 # **ENGLISH**
 
-## NLP Application developped by 2021 NLP Team
+## Description
+
+Realization of two POCs focused on summarization and automatic generation of French texts
+
+Application of a transfer learning approach: 
+- Fine-tuning with the ``ML SUM'' dataset of the ``CamemBERT'' transform for the extractive summarization task
+- Fine-tuning of the ``OrangeSUM`` ``mBART'hez`` transform for the abstractive synthesis task
+
+Development of an end-to-end application for the automation of the writing of a meeting report in French:
+- Integration of the two "fine-tuned" models (CamemBERT and mBART'hez) for automatic text summarization.
+
+Translated with www.DeepL.com/Translator (free version)
 
 This web application automates the writing of meeting minutes. 
 To develop the IT solution we used the following technologies :
