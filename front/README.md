@@ -12,10 +12,6 @@
 
 Pour utiliser l'environnement de développement du front-end, vous devez installer node.js et npm.
 
-Vous devez configurer le proxy npm sur l'ordinateur d'Aubay avec les commandes suivantes :
-- `npm config set proxy http://proxy.aubay.com:3128`  
-- `npm config set https-proxy http://proxy.aubay.com:3128`
-
 Une fois configuré, allez dans le dossier `front/svelte` et installez les dépendances avec la commande `npm install`.
 
 Vous pouvez maintenant lancer l'environnement de développement avec la commande `npm run dev`.
@@ -53,10 +49,6 @@ Depuis le dossier ```/front``` du projet :
 ## Use the front-end in a development environment
 
 To use the front-end dev environment, you need to have node.js and npm installed.  
-
-You may need to configure the npm proxy on Aubay's computer with the followinf commands :  
-- `npm config set proxy http://proxy.aubay.com:3128`  
-- `npm config set https-proxy http://proxy.aubay.com:3128`
 
 Once configured, navigate to `front/svelte` directory, then install the dependancies with `npm install`.  
 
