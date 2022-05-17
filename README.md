@@ -15,7 +15,11 @@ Application d'une approche d'apprentissage par transfert :
 Développement d'une application end-to-end pour l'automatisation de la rédaction d'un compte rendu de réunion en français :
 - Intégration des deux modèles "fine-tuné" (CamemBERT et mBART'hez) de résumé de textes automatique.
 
-## Application NLP développée par l'équipe NLP-2021
+## DEMO de l'application
+
+[Voir la démo de l'app](https://drive.google.com/file/d/1WBJFsRIHyvj2NU9GSeJw_V-Kn6RT_aFS/view?usp=sharing)
+
+## Application
 
 Cette application web génère automatiquement un compte-rendu de réunion.
 Pour développer cette solution nous avons utilisé les technologies suivantes :
@@ -77,6 +81,12 @@ Application of a transfer learning approach:
 
 Development of an end-to-end application for the automation of the writing of a meeting report in French:
 - Integration of the two "fine-tuned" models (CamemBERT and mBART'hez) for automatic text summarization.
+
+## DEMO
+
+[See the demo of the app](https://drive.google.com/file/d/1WBJFsRIHyvj2NU9GSeJw_V-Kn6RT_aFS/view?usp=sharing)
+
+## Web App
 
 This web application automates the writing of meeting minutes. 
 To develop the IT solution we used the following technologies :
