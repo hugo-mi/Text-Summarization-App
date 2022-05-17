@@ -35,24 +35,12 @@ Pour développer cette solution nous avons utilisé les technologies suivantes :
 ## Pré-Requis 
 
 - Installer docker (https://www.docker.com/products/docker-desktop)
-- Télécharger les poids des modèles (>2Go) :
-    * Se connecter au serveur S3 https://s3.console.aws.amazon.com/s3/home?region=eu-west-1#
-    * Aller dans le dossier aoc-innov-data-nlp > Data, où vous trouverez des dossiers pour les deux modèles utilisés (mBARThez et CamemBERT)
-    * Télécharger les poids des deux modèles (pytorch_model.bin)
-    * Les placer dans les dossiers correspondant dans le projet (engine/data/\{camembert, mbarthez\})
-- Mettre à jour la clé API Rev.AI dans le fichier `docker-compose.yaml`. (REV_AI_KEY)
-
-Pré-requis sur les PC Aubay :
-- Dans Docker Client > Settings (à côté de Upgrade) > Docker Engine > json file : mettre l'option `buildkit` a 'false'.
-- Dans Docker Client > Settings > Ressources > Proxies > Web Server (HTTP) : mettre le proxy http://proxy.aubay.com:3128
 
 ## Instructions
 
 1. Créer les images 
 
-```docker-compose build --build-arg http_proxy="http://proxy.aubay.com:3128" --build-arg https_proxy="http://proxy.aubay.com:3128"``` en première utilisation  
-
-```docker-compose build``` sinon
+```docker-compose build```
 
 2. Lancer les containers  
 ```docker-compose up```
@@ -102,25 +90,13 @@ To develop the IT solution we used the following technologies :
 ## Requirements
 
 - Install docker (https://www.docker.com/products/docker-desktop)
-- As the models' weights are over 2Go, we need you to download them : 
-    * Log into https://s3.console.aws.amazon.com/s3/home?region=eu-west-1#
-    * Go to aoc-innov-data-nlp > Data , you'll find the folders for the two models (mBARThez and CamemBERT)
-    * Download the weights for each of them (pytorch_model.bin)
-    * Place them in their corresponding folders in the project (engine/data/\{camembert, mbarthez\})
-- Update the Rev.AI api key in the `docker-compose.yaml` file at line 7 (REV_AI_KEY)
-
-Requirements on Aubay's computers :
-* Set the `buildkit` feature to false ( Docker Client > Settings (next to Upgrade) > Docker Engine > json file).
-* Set the proxy to http://proxy.aubay.com:3128 (Docker Client > Settings > Ressources > Proxies > Web Server (HTTP))
 
 ## Instructions
 
 
 1. Build the images 
 
-```docker-compose build --build-arg http_proxy="http://proxy.aubay.com:3128" --build-arg https_proxy="http://proxy.aubay.com:3128"``` on premices 
-
-```docker-compose build``` at home   
+```docker-compose build```
 
 2. Run the containers  
 ```docker-compose up```
