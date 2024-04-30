@@ -17,7 +17,7 @@ Développement d'une application end-to-end pour l'automatisation de la rédacti
 
 ## DEMO de l'application
 
-[Voir la démo de l'app](https://drive.google.com/file/d/1WBJFsRIHyvj2NU9GSeJw_V-Kn6RT_aFS/view?usp=sharing)
+[Voir la démo de l'app](https://drive.google.com/file/d/1IYGXjc4f1rdMuOasIejwXpb2QJf_Lx2K/view?usp=sharing)
 
 ## Application
 
