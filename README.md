@@ -24,13 +24,13 @@ Développement d'une application end-to-end pour l'automatisation de la rédacti
 Cette application web génère automatiquement un compte-rendu de réunion.
 Pour développer cette solution nous avons utilisé les technologies suivantes :
 
-- Front-end : Svelte.js
-- Back-end : Flask
-- Transcription de l'audio : Rev.AI
+- Front-end : ``Svelte.js``
+- Back-end : ``Flask``
+- Transcription de l'audio : ``Rev.AI``
 - Méthodes de résumé de texte: 
-**Camembert-base fine-tuned** pour la génération extractive and **mBART'hez fine-tuned** pour la génération abstractive
-- Base de données : MongoDB
-- Web Server : NGINX
+``Camembert-base fine-tuned`` pour la génération extractive and ``mBART'hez fine-tuned`` pour la génération abstractive
+- Base de données : ``MongoDB``
+- Web Server : ``NGINX``
 
 ## Pré-Requis 
 
@@ -64,7 +64,7 @@ Pour développer cette solution nous avons utilisé les technologies suivantes :
 Realization of two POCs focused on summarization and automatic generation of French texts
 
 Application of a transfer learning approach: 
-- Fine-tuning with the ``ML SUM'' dataset of the ``CamemBERT'' transform for the extractive summarization task
+- Fine-tuning with the ``ML SUM`` dataset of the ``CamemBERT`` transform for the extractive summarization task
 - Fine-tuning of the ``OrangeSUM`` ``mBART'hez`` transform for the abstractive summarization task
 
 Development of an end-to-end application for the automation of the writing of a meeting report in French:
