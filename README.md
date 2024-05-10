@@ -72,7 +72,7 @@ Development of an end-to-end application for the automation of the writing of a 
 
 ## DEMO
 
-[See the demo of the app](https://drive.google.com/file/d/1WBJFsRIHyvj2NU9GSeJw_V-Kn6RT_aFS/view?usp=sharing)
+[See the demo of the app](https://drive.google.com/file/d/1IYGXjc4f1rdMuOasIejwXpb2QJf_Lx2K/view?usp=sharing)
 
 ## Web App
 
